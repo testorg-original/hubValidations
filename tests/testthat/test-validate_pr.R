@@ -11,7 +11,7 @@ test_that("validate_pr works on valid PR", {
   checks <- validate_pr(
     hub_path = temp_hub,
     gh_repo = "testorg-original/ci-testhub-simple",
-    pr_number = 4,
+    pr_number = 1,
     skip_submit_window_check = TRUE
   )
 
@@ -35,7 +35,7 @@ test_that("validate_pr works on invalid PR", {
   invalid_checks <- validate_pr(
     hub_path = temp_hub,
     gh_repo = "testorg-original/ci-testhub-simple",
-    pr_number = 5,
+    pr_number = 4,
     skip_submit_window_check = TRUE
   )
 
@@ -60,7 +60,7 @@ test_that("validate_pr flags modifications and deletions in PR", {
     validate_pr(
       hub_path = temp_hub,
       gh_repo = "testorg-original/ci-testhub-simple",
-      pr_number = 6,
+      pr_number = 3,
       skip_submit_window_check = TRUE
     )
   )
@@ -74,7 +74,7 @@ test_that("validate_pr flags modifications and deletions in PR", {
     validate_pr(
       hub_path = temp_hub,
       gh_repo = "testorg-original/ci-testhub-simple",
-      pr_number = 6,
+      pr_number = 3,
       skip_submit_window_check = TRUE,
       file_modification_check = "warn"
     )
@@ -88,7 +88,7 @@ test_that("validate_pr flags modifications and deletions in PR", {
     validate_pr(
       hub_path = temp_hub,
       gh_repo = "testorg-original/ci-testhub-simple",
-      pr_number = 6,
+      pr_number = 3,
       skip_submit_window_check = TRUE,
       file_modification_check = "message"
     )
@@ -103,7 +103,7 @@ test_that("validate_pr flags modifications and deletions in PR", {
     validate_pr(
       hub_path = temp_hub,
       gh_repo = "testorg-original/ci-testhub-simple",
-      pr_number = 6,
+      pr_number = 3,
       skip_submit_window_check = TRUE,
       file_modification_check = "none"
     )
@@ -123,7 +123,7 @@ test_that("validate_pr flags modifications and deletions in PR", {
     validate_pr(
       hub_path = temp_hub,
       gh_repo = "testorg-original/ci-testhub-simple",
-      pr_number = 6,
+      pr_number = 3,
       skip_submit_window_check = TRUE,
       allow_submit_window_mods = TRUE
     )
@@ -147,7 +147,7 @@ test_that("validate_pr handles errors in determining submission window & file re
     validate_pr(
       hub_path = temp_hub,
       gh_repo = "testorg-original/ci-testhub-simple",
-      pr_number = 7,
+      pr_number = 2,
       skip_submit_window_check = TRUE
     )
   )
