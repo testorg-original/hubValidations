@@ -337,7 +337,7 @@ Details of checks performed by \code{validate_model_metadata()}\if{html}{\out{<t
 \dontrun{
 validate_pr(
   hub_path = ".",
-  gh_repo = "testorg-original/ci-testhub-simple",
+  gh_repo = "testorg-rename/ci-testhub-simple",
   pr_number = 3
 )
 }

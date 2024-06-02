@@ -13,12 +13,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# hubValidations <a href="https://testorg-original.github.io/hubValidations/"><img src="man/figures/logo.png" align="right" height="131" alt="hubValidations website" /></a>
+# hubValidations <a href="https://testorg-rename.github.io/hubValidations/"><img src="man/figures/logo.png" align="right" height="131" alt="hubValidations website" /></a>
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![Codecov test coverage](https://codecov.io/gh/testorg-original/hubValidations/branch/main/graph/badge.svg)](https://app.codecov.io/gh/testorg-original/hubValidations?branch=main)
-[![R-CMD-check](https://github.com/testorg-original/hubValidations/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/testorg-original/hubValidations/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/testorg-rename/hubValidations/branch/main/graph/badge.svg)](https://app.codecov.io/gh/testorg-rename/hubValidations?branch=main)
+[![R-CMD-check](https://github.com/testorg-rename/hubValidations/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/testorg-rename/hubValidations/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of hubValidations is to provide a testing framework for performing hubverse hub validations.
@@ -28,7 +28,7 @@ The goal of hubValidations is to provide a testing framework for performing hubv
 You can install the development version of hubValidations like so:
 
 ``` r
-remotes::install_github("testorg-original/hubValidations")
+remotes::install_github("testorg-rename/hubValidations")
 ```
 
 > ##### 💡 TIP 

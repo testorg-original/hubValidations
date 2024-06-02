@@ -1,4 +1,4 @@
-schema_version: "https://raw.githubusercontent.com/testorg-original/schemas/main/v2.0.0/admin-schema.json"
+schema_version: "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.0/admin-schema.json"
 team_name: "Team Sam"
 team_abbr: "team"
 model_name: "Model Ple"
